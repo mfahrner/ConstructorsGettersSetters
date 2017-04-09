@@ -4,11 +4,11 @@ package com.theironyardcharlotte;
  * Created by mfahrner on 8/2/16.
  */
 public class Tree {
-    String type;
-    String color;
-    boolean hasLeaves;
-    int age;
-    boolean hasFruit;
+    private String type;
+    private String color;
+    private boolean hasLeaves;
+    private int age;
+    private boolean hasFruit;
 
     public Tree(String type, String color, boolean hasLeaves, int age, boolean hasFruit) {
         this.type = type;

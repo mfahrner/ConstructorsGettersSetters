@@ -4,11 +4,11 @@ package com.theironyardcharlotte;
  * Created by mfahrner on 8/2/16.
  */
 public class Bike {
-    String type;
-    int wheelSize;
-    int numberOfGears;
-    String color;
-    int weight;
+    private String type;
+    private int wheelSize;
+    private int numberOfGears;
+    private String color;
+    private int weight;
 
     public Bike(String type, int wheelSize, int numberOfGears, String color, int weight) {
         this.type = type;

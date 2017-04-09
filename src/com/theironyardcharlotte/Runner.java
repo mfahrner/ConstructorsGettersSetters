@@ -4,11 +4,11 @@ package com.theironyardcharlotte;
  * Created by mfahrner on 8/2/16.
  */
 public class Runner {
-    String name;
-    double height;
-    int weight;
-    int speed;
-    double time;
+    private String name;
+    private double height;
+    private int weight;
+    private int speed;
+    private double time;
 
 
     public Runner(String name, double height, int weight, int speed, double time) {

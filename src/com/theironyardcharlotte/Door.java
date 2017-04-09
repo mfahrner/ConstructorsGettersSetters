@@ -4,11 +4,11 @@ package com.theironyardcharlotte;
  * Created by mfahrner on 8/2/16.
  */
 public class Door {
-    int height;
-    int width;
-    boolean opens;
-    String color;
-    boolean isCreaky;
+    private int height;
+    private int width;
+    private boolean opens;
+    private String color;
+    private boolean isCreaky;
 
     public Door(int height, int width, boolean opens, String color, boolean isCreaky) {
         this.height = height;

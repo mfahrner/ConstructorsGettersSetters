@@ -4,11 +4,11 @@ package com.theironyardcharlotte;
  * Created by mfahrner on 8/2/16.
  */
 public class Dog {
-    String name;
-    String breed;
-    String color;
-    boolean isNice;
-    boolean isObedient;
+    private String name;
+    private String breed;
+    private String color;
+    private boolean isNice;
+    private boolean isObedient;
 
 
 
